@@ -1,0 +1,23 @@
+.grey {
+  background-color: rgba(200, 195, 195, 0.435);
+  text-align: center;
+}
+
+.light-grey {
+  background-color: rgba(211, 211, 211, 0.356);
+  width: 33%;
+  padding: 3%;
+  text-align: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+h5 {
+  padding: 7px;
+  margin-left: 56px;
+}
+
+/* p {
+  color: green;
+  font-size: x-large;
+} */

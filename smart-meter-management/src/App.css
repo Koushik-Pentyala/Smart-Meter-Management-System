@@ -1,0 +1,98 @@
+.toggle-checkbox:checked {
+  @apply: right-0 border-green-600;
+  right: 0;
+  border-color: #23d238;
+}
+.toggle-checkbox:checked + .toggle-label {
+  @apply: bg-green-600;
+  background-color: #23d238;
+}
+
+.toggle-container label {
+  background-color: rgb(213, 200, 200);
+}
+
+.toggle-container input {
+  border-color: rgb(213, 200, 200);
+}
+
+.table-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table-row th {
+  width: 100%;
+  display: inline-block;
+  margin-right: 1em !important;
+}
+
+a svg {
+  margin: 0;
+  margin-right: 0.4em;
+  margin-left: 0.4em;
+}
+
+h2 .logo {
+  margin: 0;
+}
+
+table button {
+  width: fit-content;
+  font-size: 1em;
+}
+
+table tr td img {
+  margin: 0;
+}
+
+.sideBar button {
+  /* background-color: transparent !important; */
+  box-shadow: none;
+}
+
+div {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+/* .table-wrapper {
+  width: fit-content;
+    margin: 0 auto;
+  }
+  span {
+    padding: 10px;
+  }
+  *{
+    margin: 0 auto;
+}
+
+.backgroundImage {
+  width: 600px;
+  height: 350px ;
+  margin: 12% 10% 15% 10%;
+}
+.primary-button {
+  margin-left: 890px;
+  margin-top: 40px;
+}
+.primary-button {
+  background-color: #36A9AE;
+  background-image: linear-gradient(#37ADB2, #329CA0);
+  border-radius: 4px;
+  color: #FFFFFF;
+  font-size: 25px;
+  font-family: -apple-system,".SFNSDisplay-Regular","Helvetica Neue",Helvetica,Arial,sans-serif;
+  width: 38%;
+  height: 23%;
+}
+.primary-button:hover {
+  box-shadow: rgba(255, 255, 255, 0.3) 0 0 2px inset, rgba(0, 0, 0, 0.4) 0 4px 6px;
+}
+
+
+.primary-label{
+  margin-left: 880px;
+  margin-top: 100px;
+  width:60%;
+  font-size:22px;
+} */
